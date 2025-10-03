@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerSync - Unlock Your Career Potential</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    body {
+      line-height: 1.6;
+    }
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem;
+      background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: white;
+    }
+    .hero h1, .hero h2 {
+      color: white;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    .grid-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      text-align: center;
+    }
+    .grid-steps img {
+      max-width: 80px;
+      margin: 0 auto 1rem;
+    }
+    .logo-grid {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .logo-grid img {
+      max-height: 50px;
+    }
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>CareerSync</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#" role="button">Get Started</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Unlock Your Career Potential with AI-Powered Guidance</h1>
+    <h2>CareerSync creates a personalized roadmap for your career growth — analyzing your skills, identifying gaps, and connecting you with real opportunities.</h2>
+    <p>
+      <a href="#" role="button">Get Started Free</a>
+      <a href="#" role="button" class="secondary">See How It Works</a>
+    </p>
+  </section>
+
+  <main class="container">
+    <!-- Section 1: The Problem -->
+    <section>
+      <hgroup>
+        <h2>Tired of Generic Career Advice?</h2>
+      </hgroup>
+      <p>Traditional career services offer one-size-fits-all guidance. CareerSync is different — we use AI to give you personalized, data-driven career strategies so you can grow with confidence.</p>
+    </section>
+
+    <!-- Section 2: The Solution -->
+    <section>
+      <hgroup>
+        <h2>Meet CareerSync — Your AI Career Co-Pilot</h2>
+      </hgroup>
+      <ul>
+        <li>Analyze your professional profile instantly</li>
+        <li>Map skill gaps and unlock learning pathways</li>
+        <li>Get targeted job recommendations tailored to you</li>
+        <li>Access real-time labor market intelligence</li>
+      </ul>
+      <p><a href="#" role="button">Start for Free →</a></p>
+    </section>
+
+    <!-- Section 3: How It Works -->
+    <section>
+      <hgroup>
+        <h2>How It Works</h2>
+      </hgroup>
+      <div class="grid-steps">
+        <div>
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Upload CV">
+          <p>Step 1: Upload your CV or LinkedIn profile</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?auto=format&fit=crop&w=400&q=80" alt="Skill report">
+          <p>Step 2: Get your personalized skill-gap report</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80" alt="Learning path">
+          <p>Step 3: Follow your AI-generated learning path</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1521790361543-f645cf042ec4?auto=format&fit=crop&w=400&q=80" alt="Opportunity">
+          <p>Step 4: Land your next big opportunity</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Freemium + Upsell -->
+    <section>
+      <h2>Try CareerSync Free — Upgrade Anytime</h2>
+      <h3>Free Plan Includes:</h3>
+      <ul>
+        <li>Career profile scan</li>
+        <li>Basic skill-gap snapshot</li>
+        <li>1 personalized job match per week</li>
+        <li>Market insight teaser</li>
+      </ul>
+      <h3>Premium Unlocks:</h3>
+      <ul>
+        <li>Unlimited job matches</li>
+        <li>Full skill-gap analysis + learning paths</li>
+        <li>Real-time career forecasting</li>
+        <li>Advanced salary + market analytics</li>
+      </ul>
+      <p>
+        <a href="#" role="button">Get Started Free</a>
+        <a href="#" role="button" class="secondary">See Premium Plans</a>
+      </p>
+    </section>
+
+    <!-- Section 5: Why Different -->
+    <section>
+      <h2>Why CareerSync Is Different</h2>
+      <ul>
+        <li>AI-powered personalization (not generic advice)</li>
+        <li>Predictive skill matching for future-proof careers</li>
+        <li>Dynamic learning recommendations</li>
+        <li>Real-time labor market insights</li>
+      </ul>
+    </section>
+
+    <!-- Section 6: Social Proof -->
+    <section>
+      <h2>Built for Modern Professionals</h2>
+      <blockquote>
+        “CareerSync helped me identify my skill gaps and land a new role in just 3 months!” – Early Beta User
+      </blockquote>
+      <div class="logo-grid">
+        <img src="https://via.placeholder.com/120x50?text=Logo+1" alt="Logo 1">
+        <img src="https://via.placeholder.com/120x50?text=Logo+2" alt="Logo 2">
+        <img src="https://via.placeholder.com/120x50?text=Logo+3" alt="Logo 3">
+      </div>
+    </section>
+
+    <!-- Section 7: Market Opportunity -->
+    <section>
+      <h2>Transforming Career Growth Worldwide</h2>
+      <ul>
+        <li>$45.8B global career development market by 2025</li>
+        <li>500M knowledge workers ready for better guidance</li>
+        <li>CareerSync is designed to scale across individuals, enterprises, and global markets.</li>
+      </ul>
+    </section>
+
+    <!-- Section 8: Final Call -->
+    <section>
+      <h2>Your Next Career Step Starts Here</h2>
+      <h3>Don’t wait for opportunity — let CareerSync guide you to it.</h3>
+      <p>
+        <a href="#" role="button">Get Started Free</a>
+        <a href="#" role="button" class="secondary">Explore Premium</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container">
+    <small>
+      <a href="#">About</a> •
+      <a href="#">Features</a> •
+      <a href="#">Pricing</a> •
+      <a href="#">Blog</a> •
+      <a href="#">Contact</a>
+    </small>
+    <br>
+    <small>Data Privacy & Trust Promise: We never sell your data. You’re in control of your career journey.</small>
+  </footer>
+</body>
+</html>
